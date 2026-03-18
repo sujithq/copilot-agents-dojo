@@ -11,6 +11,7 @@ This dojo contains **modular skills**, helper scripts, and automation that turn 
 ## Skill Sets
 
 - **[`skills/`](skills/)** — Individual skill folders (core disciplines + practical skills)
+- **[`agents/`](agents/)** — Specialized agent personas for different roles
 - **[`skills.md`](skills.md)** — The master index — auto-discovered by Copilot agents
 - **[`spec/`](spec/)** — The Copilot Skills specification
 - **[`template/`](template/)** — Starter template for creating new skills
@@ -97,6 +98,20 @@ The house rules that every agent follows when they enter your repo:
 - Behavioral governance summary linking back to the skills
 - Session-start lesson review workflow
 - Helper script references for automation
+
+## Specialized Agents
+
+Agents are specialized personas bundled in the [`agents/`](agents/) directory. Each agent combines relevant skills to excel at specific roles:
+
+| Agent | Focus Area |
+|-------|-----------|
+| [`architect.md`](agents/architect.md) | System design, technical strategy, and long-term architecture decisions |
+| [`security-engineer.md`](agents/security-engineer.md) | Security compliance, vulnerability identification, and secure practices |
+| [`software-engineer.md`](agents/software-engineer.md) | Feature development, bug fixes, and production-quality code |
+| [`technical-program-manager.md`](agents/technical-program-manager.md) | Project planning, timeline coordination, and cross-team communication |
+| [`test-engineer.md`](agents/test-engineer.md) | Test strategy, test implementation, and quality assurance |
+
+Agents activate based on context and task type, dynamically loading the appropriate skills for the job.
 
 ## Helper Scripts
 
