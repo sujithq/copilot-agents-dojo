@@ -9,7 +9,7 @@ The canonical GitHub Copilot edition of the [superpowers](https://github.com/obr
 Drop `skills/` + `.github/copilot-instructions.md` into any repo root → Copilot agents auto-discover and enforce the full workflow.
 
 Includes:
-- **22 production skills** (6 core disciplines + 9 workflow skills + 7 practical skills)
+- **22 production skills** (6 core kata + 7 flow waza + 6 practical kumite + 3 meta dō)
 - Mandatory **BRAINSTORM → PLAN → TDD → REVIEW → FINISH** pipeline
 - Git worktree isolation
 - Self-improving `tasks/lessons.md`
@@ -37,13 +37,13 @@ BRAINSTORM → WORKTREE → PLAN → EXECUTE → TEST → REVIEW → FINISH → 
 
 ## Skill Sets
 
-- **[`skills/`](skills/)** — Individual skill folders (core disciplines + workflow + practical)
+- **[`skills/`](skills/)** — Individual skill folders (kata + waza + kumite + dō)
 - **[`agents/`](agents/)** — Specialized agent personas for different roles
 - **[`skills.md`](skills.md)** — The master index — auto-discovered by Copilot agents
 - **[`spec/`](spec/)** — The Copilot Skills specification
 - **[`template/`](template/)** — Starter template for creating new skills
 
-## The Six Disciplines (Core Kata)
+## Core Kata — 基本型
 
 Behavioral skills that govern *how* agents think. Style-agnostic — works with any language or framework.
 
@@ -56,7 +56,7 @@ Behavioral skills that govern *how* agents think. Style-agnostic — works with 
 | [`demand-elegance`](skills/demand-elegance/SKILL.md) | 🥋 Challenge hacky solutions (but don't over-engineer) |
 | [`autonomous-bug-fix`](skills/autonomous-bug-fix/SKILL.md) | 🥋 Reproduce → diagnose → fix → verify. Zero hand-holding. |
 
-## Practical Skills
+## Practical Kumite — 実践組手
 
 Task-specific skills for common engineering workflows.
 
@@ -69,7 +69,7 @@ Task-specific skills for common engineering workflows.
 | [`debugging`](skills/debugging/SKILL.md) | Systematic debugging — evidence, hypotheses, divide-and-conquer |
 | [`codebase-onboarding`](skills/codebase-onboarding/SKILL.md) | Rapidly understand unfamiliar codebases |
 
-## Workflow Skills (from superpowers)
+## Flow Waza — 流れ技
 
 Skills that orchestrate the mandatory pipeline — brainstorm to finish.
 
@@ -83,7 +83,7 @@ Skills that orchestrate the mandatory pipeline — brainstorm to finish.
 | [`finishing-a-development-branch`](skills/finishing-a-development-branch/SKILL.md) | Final verification + merge decision + cleanup |
 | [`dispatching-parallel-agents`](skills/dispatching-parallel-agents/SKILL.md) | Concurrent sub-agent work when beneficial |
 
-## Meta Skills
+## Meta Dō — 道
 
 | Skill | Purpose |
 |-------|---------|
@@ -225,51 +225,51 @@ your-repo/
 ├── skills.md                          # Skills index (auto-discovered)
 ├── skills/
 │   ├── plan-before-code/
-│   │   └── SKILL.md                   # 🥋 Core Discipline
+│   │   └── SKILL.md                   # 🥋 Core Kata
 │   ├── subagent-strategy/
-│   │   └── SKILL.md                   # 🥋 Core Discipline
+│   │   └── SKILL.md                   # 🥋 Core Kata
 │   ├── self-improvement/
-│   │   ├── SKILL.md                   # 🥋 Core Discipline
+│   │   ├── SKILL.md                   # 🥋 Core Kata
 │   │   └── examples/
 │   │       └── lesson-entry.md        # Worked example
 │   ├── verify-before-done/
-│   │   └── SKILL.md                   # 🥋 Core Discipline
+│   │   └── SKILL.md                   # 🥋 Core Kata
 │   ├── demand-elegance/
-│   │   └── SKILL.md                   # 🥋 Core Discipline
+│   │   └── SKILL.md                   # 🥋 Core Kata
 │   ├── autonomous-bug-fix/
-│   │   └── SKILL.md                   # 🥋 Core Discipline
+│   │   └── SKILL.md                   # 🥋 Core Kata
 │   ├── brainstorming/
-│   │   └── SKILL.md                   # 🔄 Workflow Skill
+│   │   └── SKILL.md                   # 🔄 Flow Waza
 │   ├── using-git-worktrees/
-│   │   └── SKILL.md                   # 🔄 Workflow Skill
+│   │   └── SKILL.md                   # 🔄 Flow Waza
 │   ├── executing-plans/
-│   │   └── SKILL.md                   # 🔄 Workflow Skill
+│   │   └── SKILL.md                   # 🔄 Flow Waza
 │   ├── requesting-code-review/
-│   │   └── SKILL.md                   # 🔄 Workflow Skill
+│   │   └── SKILL.md                   # 🔄 Flow Waza
 │   ├── receiving-code-review/
-│   │   └── SKILL.md                   # 🔄 Workflow Skill
+│   │   └── SKILL.md                   # 🔄 Flow Waza
 │   ├── finishing-a-development-branch/
-│   │   └── SKILL.md                   # 🔄 Workflow Skill
+│   │   └── SKILL.md                   # 🔄 Flow Waza
 │   ├── dispatching-parallel-agents/
-│   │   └── SKILL.md                   # 🔄 Workflow Skill
+│   │   └── SKILL.md                   # 🔄 Flow Waza
 │   ├── code-review/
-│   │   └── SKILL.md                   # Practical Skill
+│   │   └── SKILL.md                   # ⚔️ Practical Kumite
 │   ├── refactoring/
-│   │   └── SKILL.md                   # Practical Skill
+│   │   └── SKILL.md                   # ⚔️ Practical Kumite
 │   ├── test-writing/
-│   │   └── SKILL.md                   # Practical Skill
+│   │   └── SKILL.md                   # ⚔️ Practical Kumite
 │   ├── pr-workflow/
-│   │   └── SKILL.md                   # Practical Skill
+│   │   └── SKILL.md                   # ⚔️ Practical Kumite
 │   ├── debugging/
-│   │   └── SKILL.md                   # Practical Skill
+│   │   └── SKILL.md                   # ⚔️ Practical Kumite
 │   ├── codebase-onboarding/
-│   │   └── SKILL.md                   # Practical Skill
+│   │   └── SKILL.md                   # ⚔️ Practical Kumite
 │   ├── skill-creator/
-│   │   └── SKILL.md                   # Meta Skill
+│   │   └── SKILL.md                   # 🧘 Meta Dō
 │   ├── writing-skills/
-│   │   └── SKILL.md                   # Meta Skill
+│   │   └── SKILL.md                   # 🧘 Meta Dō
 │   └── using-superpowers/
-│       └── SKILL.md                   # Meta Skill (Activator)
+│       └── SKILL.md                   # 🧘 Meta Dō (Activator)
 ├── spec/
 │   └── copilot-skills-spec.md         # Skill format specification
 ├── template/

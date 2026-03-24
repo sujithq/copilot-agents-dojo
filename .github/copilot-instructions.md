@@ -64,7 +64,7 @@ BRAINSTORM → WORKTREE → PLAN → EXECUTE → TEST → REVIEW → FINISH → 
 7. **[Finishing a development branch](../skills/finishing-a-development-branch/SKILL.md)** → Verify, merge decision, cleanup
 8. **[Self-improvement](../skills/self-improvement/SKILL.md)** → Log lessons, update metrics
 
-### Core Disciplines (always active)
+### Core Kata — 基本型 (always active)
 - **[Plan before code](../skills/plan-before-code/SKILL.md)**: Enter plan mode for any non-trivial task (3+ steps). Write plan to `tasks/todo.md`.
 - **[Verify before done](../skills/verify-before-done/SKILL.md)**: Run tests, check logs, diff against main. Never mark complete without proof.
 - **[Subagent strategy](../skills/subagent-strategy/SKILL.md)**: Offload research and parallel analysis to subagents. Keep context clean.
@@ -72,7 +72,7 @@ BRAINSTORM → WORKTREE → PLAN → EXECUTE → TEST → REVIEW → FINISH → 
 - **[Demand elegance](../skills/demand-elegance/SKILL.md)**: Challenge shortcuts on non-trivial changes. Skip for simple fixes — don't over-engineer.
 - **[Autonomous bug fix](../skills/autonomous-bug-fix/SKILL.md)**: Reproduce → diagnose → fix → verify. Zero hand-holding. No context switching from the user.
 
-### Workflow Skills (activate in sequence)
+### Flow Waza — 流れ技 (activate in sequence)
 - **[Brainstorming](../skills/brainstorming/SKILL.md)**: Refine ideas via Socratic questioning before code
 - **[Using git worktrees](../skills/using-git-worktrees/SKILL.md)**: Isolated workspace for every session
 - **[Executing plans](../skills/executing-plans/SKILL.md)**: Dispatch and execute tasks from todo.md
@@ -81,7 +81,7 @@ BRAINSTORM → WORKTREE → PLAN → EXECUTE → TEST → REVIEW → FINISH → 
 - **[Finishing a development branch](../skills/finishing-a-development-branch/SKILL.md)**: Final verification + merge + cleanup
 - **[Dispatching parallel agents](../skills/dispatching-parallel-agents/SKILL.md)**: Concurrent sub-agent work when beneficial
 
-### Practical Skills (load on demand)
+### Practical Kumite — 実践組手 (load on demand)
 - **[Code review](../skills/code-review/SKILL.md)**: For reviewing PRs or diffs
 - **[Refactoring](../skills/refactoring/SKILL.md)**: For restructuring code safely
 - **[Test writing](../skills/test-writing/SKILL.md)**: For writing meaningful tests
@@ -89,7 +89,7 @@ BRAINSTORM → WORKTREE → PLAN → EXECUTE → TEST → REVIEW → FINISH → 
 - **[Debugging](../skills/debugging/SKILL.md)**: For systematic complex debugging
 - **[Codebase onboarding](../skills/codebase-onboarding/SKILL.md)**: For understanding unfamiliar repos
 
-### Meta Skills
+### Meta Dō — 道
 - **[Skill creator](../skills/skill-creator/SKILL.md)**: For creating new custom skills
 - **[Writing skills](../skills/writing-skills/SKILL.md)**: SKILL.md template and spec compliance
 - **[Using superpowers](../skills/using-superpowers/SKILL.md)**: Framework activator — loads everything

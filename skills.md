@@ -18,7 +18,7 @@ BRAINSTORM → WORKTREE → PLAN → EXECUTE → TEST → REVIEW → FINISH → 
 
 ---
 
-## Core Disciplines — The Six Kata
+## Core Kata — 基本型
 
 Behavioral skills that govern *how* the agent thinks and operates. Style-agnostic — they work regardless of language or framework.
 
@@ -42,7 +42,7 @@ Behavioral skills that govern *how* the agent thinks and operates. Style-agnosti
 
 ---
 
-## Workflow Skills — The Pipeline
+## Flow Waza — 流れ技
 
 Skills that orchestrate the mandatory development pipeline. Adapted from [superpowers](https://github.com/obra/superpowers) for GitHub Copilot agents.
 
@@ -69,7 +69,7 @@ Skills that orchestrate the mandatory development pipeline. Adapted from [superp
 
 ---
 
-## Practical Skills
+## Practical Kumite — 実践組手
 
 Task-specific skills that teach the agent *how to do* particular kinds of work.
 
@@ -93,7 +93,7 @@ Rapidly understanding an unfamiliar codebase — structure, conventions, depende
 
 ---
 
-## Meta Skills
+## Meta Dō — 道
 
 ### [`skills/skill-creator`](skills/skill-creator/SKILL.md) — Skill Creator
 A meta-skill for creating new dojo skills. Captures intent, writes SKILL.md files, and tests skill effectiveness.
