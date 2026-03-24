@@ -4,7 +4,7 @@
 
 **Your AI agents are untrained. Time to put them through the dojo.**
 
-A skills & discipline framework for GitHub Copilot agents. Drop structured skills into any repo, enforce a mandatory workflow, and let agents self-improve — with auto-discovery via repo root, no marketplace needed, and `scripts/` for automated gates. Orchestration pipeline inspired by [obra/superpowers](https://github.com/obra/superpowers).
+A skills & discipline framework for GitHub Copilot agents. Drop structured skills into any repo, enforce a mandatory workflow, and let agents self-improve — with auto-discovery via repo root, no marketplace needed, and `scripts/` for automated gates. Built from battle-tested patterns from the field.
 
 Drop `skills/` + `.github/copilot-instructions.md` into any repo root → Copilot agents auto-discover and enforce the full workflow.
 
@@ -301,9 +301,15 @@ Pick your style. Delete the others. The Six Disciplines are **style-agnostic**.
 
 ## Origin Story
 
-The Copilot Agents Dojo started as a training ground for disciplined AI agents — a place where untrained models learn to plan before they code, verify before they declare victory, and improve after every session.
+The Copilot Agents Dojo was born from battle-tested patterns learned the hard way — shipping production code with AI agents, watching them fail, and figuring out what actually makes them reliable.
 
-The orchestration pipeline (BRAINSTORM → WORKTREE → PLAN → EXECUTE → TEST → REVIEW → FINISH → LEARN) is inspired by [obra/superpowers](https://github.com/obra/superpowers), which proved that a mandatory workflow turns chaotic agents into reliable ones. The dojo adapts that pipeline for GitHub Copilot's native auto-discovery (`skills/` + `.github/copilot-instructions.md` at repo root), adds `scripts/` for automated gates, and wraps everything in a martial-arts skill progression system.
+The skills distill lessons from multiple sources:
+
+- **Field experience** — Real-world agent sessions that exposed the failure modes: rushing without plans, skipping verification, repeating the same mistakes, flooding the context window. Every core kata exists because an agent failed without it.
+- **[Anthropic Claude](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)** — Structured prompting, progressive disclosure, explicit verification gates, and the principle that agents perform best when given clear constraints rather than open-ended freedom.
+- **[obra/superpowers](https://github.com/obra/superpowers)** — The mandatory orchestration pipeline (BRAINSTORM → WORKTREE → PLAN → EXECUTE → TEST → REVIEW → FINISH → LEARN) that proved disciplined agents outperform freestyle ones.
+
+The dojo wraps all of this into GitHub Copilot’s native auto-discovery (`skills/` + `.github/copilot-instructions.md` at repo root), adds `scripts/` for automated gates, and packages it in a martial-arts skill progression system where agents earn their belts.
 
 Agents will behave identically: disciplined, testable, self-improving, no hand-holding.
 
